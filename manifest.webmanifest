@@ -1,0 +1,24 @@
+{
+  "name": "MR · Produção & Financeiro",
+  "short_name": "MR Design",
+  "description": "Sistema de produção, financeiro e contratos da Maria Raquel Designer.",
+  "id": "./MR.html",
+  "start_url": "./MR.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#892E4A",
+  "theme_color": "#892E4A",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "mr-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "mr-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "mr-icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Produção & Entregas", "short_name": "Produção", "url": "./MR.html#producao", "icons": [{ "src": "mr-icon-192.png", "sizes": "192x192" }] },
+    { "name": "Financeiro & PDF", "short_name": "Financeiro", "url": "./MR.html#financeiro", "icons": [{ "src": "mr-icon-192.png", "sizes": "192x192" }] },
+    { "name": "Contratos", "short_name": "Contratos", "url": "./MR.html#contrato", "icons": [{ "src": "mr-icon-192.png", "sizes": "192x192" }] }
+  ]
+}
